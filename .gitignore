@@ -1,0 +1,29 @@
+# Ignore image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.svg
+
+# Ignore other common binary files
+*.psd
+*.ai
+*.ico
+
+# Ignore thumbnail directories
+**/Thumbs.db
+
+# Ignore all directories
+# */
+
+# If you have a specific directory where images should not be ignored, you can use the negation pattern:
+# For example, to not ignore images in a directory called `images-keep`, add:
+# !/images-keep/
+checkpoints/
+data/
+datasets/
+results/
+sampler_result/
